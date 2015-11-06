@@ -11,6 +11,6 @@ FROM node:0.12
 RUN \
   cd /home/ec2-user 
 
-CMD wget https://s3-us-west-1.amazonaws.com/chefsample/server.js
+#CMD wget https://s3-us-west-1.amazonaws.com/chefsample/server.js
 #  node server.js 
   
