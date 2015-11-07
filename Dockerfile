@@ -9,7 +9,7 @@ FROM node:0.12
 
 # Install Elasticsearch.
 RUN \
-  cd /home && \
+  cd ~  && \
   mkdir test 
 
 #CMD wget https://s3-us-west-1.amazonaws.com/chefsample/server.js
