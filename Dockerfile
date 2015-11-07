@@ -8,7 +8,9 @@
 FROM node:0.12
 
 # Install Elasticsearch.
-RUN who
+RUN \
+  cd /home && \
+  mkdir test 
 
 #CMD wget https://s3-us-west-1.amazonaws.com/chefsample/server.js
 #  node server.js 
